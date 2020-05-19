@@ -1,0 +1,12 @@
+* C:\Users\acmc\Google Drive\Educacion\Universidad\FuTFI\spice\P3_aldan_creo\3_1V.asc
+V1 N001 0 1
+R1 N002 N001 200
+R2 N003 N002 100
+D1 0 N003 1N4148
+D2 N002 0 1N4148
+R3 N003 0 100
+.model D D
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.op
+.backanno
+.end
