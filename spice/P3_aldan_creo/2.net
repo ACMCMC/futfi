@@ -1,0 +1,9 @@
+* C:\Users\acmc\Google Drive\Educacion\Universidad\FuTFI\spice\P3_aldan_creo\2.asc
+D1 N002 0 1N4148
+R1 N002 N001 1k
+V1 N001 0 PWL(0 50 100n 50 100.001n 0 200n 0 200.001n 50 300n 50 300.001n -50 400n -50 400.001n 0 500n 0 500.001n -50 600n -50 600.001n 50 700n 50)
+.model D D
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.tran 0 700n 0 1n
+.backanno
+.end
